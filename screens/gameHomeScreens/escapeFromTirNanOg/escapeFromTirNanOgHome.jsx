@@ -52,6 +52,7 @@ const EscapeFromTirNanOgHome = () => {
             <Text style={styles.startButtonText}>Start</Text>
           </TouchableOpacity>
         </View>
+        <Text style={styles.comingSoonText}>Coming soon!</Text>
       </View>
     </ScrollView>
   );

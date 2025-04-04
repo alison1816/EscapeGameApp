@@ -36,8 +36,7 @@ const ShadowsOfMayfairHome = () => {
           <TouchableOpacity
             style={styles.hintButton}
             onPress={() => {
-              console.log("Start Shadows of Mayfair game");
-              // Add your game starting logic here
+              alert("Hints coming soon!");
             }}
           >
             <Text style={styles.hintButtonText}>Hints</Text>
@@ -45,13 +44,13 @@ const ShadowsOfMayfairHome = () => {
           <TouchableOpacity
             style={styles.startButton}
             onPress={() => {
-              console.log("Start Shadows of Mayfair game");
-              // Add your game starting logic here
+              alert("Coming soon!");
             }}
           >
             <Text style={styles.startButtonText}>Start</Text>
           </TouchableOpacity>
         </View>
+        <Text style={styles.comingSoonText}>Coming soon!</Text>
       </View>
     </ScrollView>
   );

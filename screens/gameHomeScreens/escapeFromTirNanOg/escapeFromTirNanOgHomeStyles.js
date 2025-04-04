@@ -76,6 +76,12 @@ const styles = StyleSheet.create({
         color: '#283314',
         fontWeight: '500',
      },
+     comingSoonText: {
+        fontSize: 40,
+        fontWeight: 'bold',
+        marginTop: 20,  
+        textAlign: 'center',  
+     }
 });
 
 export default styles;
