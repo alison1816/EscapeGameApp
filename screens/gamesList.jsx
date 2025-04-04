@@ -8,25 +8,25 @@ const games = [
   {
     id: 1,
     title: "The Shadows of Mayfair",
-    description: "Description for Game 1",
+    description: "Coming soon!",
     image: require("../assets/TheShadowsOfMayfair.png"),
   },
   {
     id: 2,
     title: "Escape from Tír na nÓg",
-    description: "Description for Game 2",
+    description: "Coming soon!",
     image: require("../assets/EscapeFromTirNanOg.png"),
   },
   {
     id: 3,
     title: "Oops, Wrong Century!",
-    description: "Description for Game 3",
+    description: "Coming soon!",
     image: require("../assets/OopsWrongCentury.png"),
   },
   {
     id: 4,
     title: "Whispers of Éire",
-    description: "Description for Game 3",
+    description: "Coming soon!",
     image: require("../assets/WhispersOfEire.png"),
   },
 ];
