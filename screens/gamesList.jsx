@@ -1,26 +1,33 @@
 import React from "react";
 import { View, FlatList } from "react-native";
 import GameCard from "../components/gamesCards";
+import GamesCarousel from "../components/gamesCarousel";
 import styles from "./gamesListStyles";
 
 const games = [
   {
     id: 1,
-    title: "Game 1",
+    title: "The Shadows of Mayfair",
     description: "Description for Game 1",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/TheShadowsOfMayfair.png"),
   },
   {
     id: 2,
-    title: "Game 2",
+    title: "Escape from Tír na nÓg",
     description: "Description for Game 2",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/EscapeFromTirNanOg.png"),
   },
   {
     id: 3,
-    title: "Game 3",
+    title: "Oops, Wrong Century!",
     description: "Description for Game 3",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/OopsWrongCentury.png"),
+  },
+  {
+    id: 4,
+    title: "Whispers of Éire",
+    description: "Description for Game 3",
+    image: require("../assets/WhispersOfEire.png"),
   },
 ];
 
@@ -31,6 +38,7 @@ const GamesList = () => {
 
   return (
     <View style={styles.container}>
+      <GamesCarousel />
       <FlatList
         data={games}
         keyExtractor={(item) => item.id}

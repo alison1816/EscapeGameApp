@@ -32,10 +32,10 @@ export default function App() {
         headerShown: false,
       })}
     >
-      <Tab.Screen name="Home" component={Home} options={{tabBarStyle: { display: 'none' },
-  }}/>
+      <Tab.Screen name="Home" component={Home} options={{tabBarStyle: { display: 'none' },}}/>
       <Tab.Screen name="Games" component={GamesList} />
       <Tab.Screen name="Settings" component={Settings} />
+
     </Tab.Navigator>
   </NavigationContainer>
   );

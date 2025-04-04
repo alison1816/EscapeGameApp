@@ -8,15 +8,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ccc',
     padding: 16,
-    marginBottom: 16,
-    marginHorizontal: 16,
+    marginBottom: 10,
+    marginHorizontal: 11,
     alignItems: 'center',
   },
   image: {
     width: 80,
     height: 80,
     borderRadius: 12,
-    marginRight: 16,
+    marginRight: 14,
   },
   contentContainer: {
     flex: 1,
@@ -29,13 +29,13 @@ const styles = StyleSheet.create({
   },
   button: {
     alignSelf: 'flex-end',
-    backgroundColor: '#2563eb',
+    backgroundColor: '#92a969',
     paddingVertical: 8,
     paddingHorizontal: 16,
     borderRadius: 12,
   },
   buttonText: {
-    color: '#fff',
+    color: '#283314',
     fontWeight: '500',
   },
 });
