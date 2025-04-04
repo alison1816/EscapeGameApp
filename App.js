@@ -8,6 +8,8 @@ import GamesList from './screens/gamesList';
 import Settings from './screens/setting';
 import ShadowsOfMayfairHome from './screens/gameHomeScreens/shadowsOfMayfair/shadowsOfMayfairHome'; // Import the ShadowsOfMayfairHome component
 import EscapeFromTirNanOgHome from './screens/gameHomeScreens/escapeFromTirNanOg/escapeFromTirNanOgHome'; // Import the EscapeFromTirNanOgHome component
+import OopsWrongCenturyHome from './screens/gameHomeScreens/OopsWrongCentury/OopsWrongCenturyHome'; // Import the OopsWrongCenturyHome component
+import WhispersOfEireHome from './screens/gameHomeScreens/whispersOfEire/whispersOfEireHome'; // Import the WhispersOfEireHome component
 import styles from './screens/tabBarStyle';
 
 const Tab = createBottomTabNavigator();
@@ -57,6 +59,24 @@ export default function App() {
         <Stack.Screen
           name="EscapeFromTirNanOgHome"
           component={EscapeFromTirNanOgHome}
+          options={{
+            tabBarStyle: { display: 'flex' },  // Make sure tab bar is visible
+            tabBarVisible: true, // Ensure the tab bar is visible on this screen
+            headerShown: false, // Hide header if not needed
+          }}
+        />
+        <Stack.Screen
+          name="OopsWrongCenturyHome"
+          component={OopsWrongCenturyHome}
+          options={{
+            tabBarStyle: { display: 'flex' },  // Make sure tab bar is visible
+            tabBarVisible: true, // Ensure the tab bar is visible on this screen
+            headerShown: false, // Hide header if not needed
+          }}
+        />
+        <Stack.Screen
+          name="WhispersOfEireHome"
+          component={WhispersOfEireHome}
           options={{
             tabBarStyle: { display: 'flex' },  // Make sure tab bar is visible
             tabBarVisible: true, // Ensure the tab bar is visible on this screen

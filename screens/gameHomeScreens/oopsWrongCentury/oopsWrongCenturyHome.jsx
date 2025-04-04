@@ -2,9 +2,9 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native"; // Import the useNavigation hook
 import IonIcons from "react-native-vector-icons/Ionicons"; // Import Ionicons for the back button
-import styles from "./escapeFromTirNanOgHomeStyles"; // Import your styles
+import styles from "./oopsWrongCenturyHomeStyles";
 
-const EscapeFromTirNanOgHome = () => {
+const OopsWrongCenturyHome = () => {
   const navigation = useNavigation();
 
   return (
@@ -19,12 +19,12 @@ const EscapeFromTirNanOgHome = () => {
       </TouchableOpacity>
       <View style={styles.imageWrapper}>
         <Image
-          source={require("../../../assets/EscapeFromTirNanOg-Landscape.png")} // Replace with the correct image path
+          source={require("../../../assets/OopsWrongCentury-Landscape.png")} // Replace with the correct image path
           style={styles.image}
         />
       </View>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Escape from Tir na nOg</Text>
+        <Text style={styles.title}>Oops, Wrong Century!</Text>
       </View>
       <View style={styles.bodyContainer}>
         <Text style={styles.description}>This is the tag line!</Text>
@@ -56,4 +56,4 @@ const EscapeFromTirNanOgHome = () => {
   );
 };
 
-export default EscapeFromTirNanOgHome;
+export default OopsWrongCenturyHome;

@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native"; // Import the useNavigation hook
 import IonIcons from "react-native-vector-icons/Ionicons"; // Import Ionicons for the back button
-import styles from "./shadowsOfMayfairHomeStyles"; // Import the styles from shadowsOfMayfairHomeStyles.js
+import styles from "./shadowsOfMayfairHomeStyles";
 
 const ShadowsOfMayfairHome = () => {
   const navigation = useNavigation();

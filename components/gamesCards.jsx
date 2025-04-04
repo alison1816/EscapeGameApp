@@ -21,6 +21,12 @@ const GameCard = ({ game }) => {
             if (game.title === "Escape from Tír na nÓg") {
               navigation.navigate("EscapeFromTirNanOgHome");
             }
+            if (game.title === "Whispers of Éire") {
+              navigation.navigate("WhispersOfEireHome");
+            }
+            if (game.title === "Oops, Wrong Century!") {
+              navigation.navigate("OopsWrongCenturyHome");
+            }
           }}
         >
           <Text style={styles.buttonText}>Start</Text>
