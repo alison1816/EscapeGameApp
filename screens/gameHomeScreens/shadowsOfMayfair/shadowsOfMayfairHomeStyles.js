@@ -22,9 +22,9 @@ const styles = StyleSheet.create({
        resizeMode: 'cover',  // Ensure the image scales properly
     },
     title: {
-       fontSize: 24,
+       fontSize: 25,
        fontWeight: 'bold',
-       marginVertical: 10,  // Space between title and description
+       marginVertical: 10,  // Space between title and description 
     },
     bodyContainer: {
         flex: 1,
@@ -35,6 +35,13 @@ const styles = StyleSheet.create({
         paddingBottom: 130,  // Add padding on the top and bottom
         borderBottomLeftRadius: 20, 
         borderBottomRightRadius: 20,
+    },
+    tagline: {
+         fontSize: 18,
+         color: 'black',
+         marginBottom: 20,  // Space between description and any other content
+         textAlign: 'left',  // Center the description
+         fontWeight: 'bold', 
     },
     description: {
        fontSize: 16,

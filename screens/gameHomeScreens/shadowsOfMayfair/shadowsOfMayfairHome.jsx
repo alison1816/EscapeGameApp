@@ -27,10 +27,14 @@ const ShadowsOfMayfairHome = () => {
         <Text style={styles.title}>The Shadows of Mayfair</Text>
       </View>
       <View style={styles.bodyContainer}>
-        <Text style={styles.description}>This is the tag line!</Text>
+        <Text style={styles.tagline}>
+          Uncover the secrets of Mayfair, where every shadow hides a clue.
+        </Text>
         <Text style={styles.description}>
-          This is a description of the game. It explains how to app is used
-          along with the physical props.
+          A thrilling 1820's detective escape game set in the foggy streets of
+          London. Players uncover hidden clues and solve cryptic puzzles using
+          physical props, unlocking codes to reveal vital secrets and crack the
+          case before time runs out.
         </Text>
         <View style={styles.buttonsContainer}>
           <TouchableOpacity

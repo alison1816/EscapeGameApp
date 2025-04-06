@@ -8,7 +8,7 @@ import GamesList from './screens/gamesList';
 import Settings from './screens/setting';
 import ShadowsOfMayfairHome from './screens/gameHomeScreens/shadowsOfMayfair/shadowsOfMayfairHome'; // Import the ShadowsOfMayfairHome component
 import EscapeFromTirNanOgHome from './screens/gameHomeScreens/escapeFromTirNanOg/escapeFromTirNanOgHome'; // Import the EscapeFromTirNanOgHome component
-import OopsWrongCenturyHome from './screens/gameHomeScreens/OopsWrongCentury/OopsWrongCenturyHome'; // Import the OopsWrongCenturyHome component
+import OopsWrongCenturyHome from './screens/gameHomeScreens/oopsWrongCentury/oopsWrongCenturyHome'; // Import the OopsWrongCenturyHome component
 import WhispersOfEireHome from './screens/gameHomeScreens/whispersOfEire/whispersOfEireHome'; // Import the WhispersOfEireHome component
 import styles from './screens/tabBarStyle';
 

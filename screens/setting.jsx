@@ -1,18 +1,17 @@
 // screens/ProfileScreen.js
 import React from "react";
 import { View, Text } from "react-native";
+import styles from "./settingStyles"; // Import the styles
 
 export default function Settings() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#F0E1C8",
-      }}
-    >
-      <Text>Settings coming soon!</Text>
+    <View style={styles.outerContainer}>
+      <View style={styles.titleContainer}>
+        <Text style={styles.title}>Settings</Text>
+      </View>
+      <View style={styles.container}>
+        <Text>Settings coming soon!</Text>
+      </View>
     </View>
   );
 }

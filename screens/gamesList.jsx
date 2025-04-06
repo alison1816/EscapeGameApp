@@ -1,5 +1,5 @@
 import React from "react";
-import { View, FlatList } from "react-native";
+import { View, FlatList, Text } from "react-native";
 import GameCard from "../components/gamesCards";
 import GamesCarousel from "../components/gamesCarousel";
 import styles from "./gamesListStyles";
@@ -38,6 +38,9 @@ const GamesList = () => {
 
   return (
     <View style={styles.container}>
+      <View style={styles.titleContainer}>
+        <Text style={styles.title}>Celtic Enigma</Text>
+      </View>
       <GamesCarousel />
       <FlatList
         data={games}
